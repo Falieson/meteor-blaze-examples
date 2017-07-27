@@ -5,9 +5,13 @@
 <body>
   <h1>Welcome to Meteor!</h1>
 
-   <!-- {{> hello}}  -->
-   <!-- {{> info}}  -->
-    {{> example}}  
+    <!-- {{> hello}}  -->
+    <!-- {{> info}}  -->
+    <!-- {{> example}}  -->
+    {{> containerTemplate childTemplate="hello"}}  
+    {{> containerTemplate childTemplate="info"}}  
+    {{> containerTemplate childTemplate="example"}}  
+  
 </body>
 
 <template name="hello">
