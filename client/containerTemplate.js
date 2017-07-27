@@ -1,3 +1,10 @@
+/* Dynamic Templates (container/child templates)
+  
+  Read more: https://themeteorchef.com/tutorials/using-dynamic-templates
+  Reference this: https://s3.amazonaws.com/themeteorchef-cdn/snippets/dynamic-templates-diagram.pdf
+*/
+
+
 import './containerTemplate.html'
 
 // import { Template } from 'meteor/templating';
